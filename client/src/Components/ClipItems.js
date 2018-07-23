@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ClipItem from './ClipItem';
 import ClipInfo from './ClipInfo';
 import $ from 'jquery';
@@ -129,7 +130,7 @@ class ClipItems extends Component {
   }
 }
 ClipItems.propTypes = {
-  clips: React.PropTypes.array
+  clips: PropTypes.array
 }
 
 export default ClipItems;

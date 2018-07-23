@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ClipInfo extends Component {
 
@@ -18,7 +19,7 @@ class ClipInfo extends Component {
 }
 
 ClipInfo.propTypes = {
-  clipInfo: React.PropTypes.object
+  clipInfo: PropTypes.object
 }
 
 export default ClipInfo;

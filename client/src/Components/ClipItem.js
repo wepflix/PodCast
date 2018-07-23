@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ClipItem extends Component {
 
@@ -22,9 +23,9 @@ class ClipItem extends Component {
 }
 
 ClipItem.propTypes = {
-  clipItem: React.PropTypes.object,
-  active: React.PropTypes.string,
-  clipItemLink: React.PropTypes.string
+  clipItem: PropTypes.object,
+  active: PropTypes.string,
+  clipItemLink: PropTypes.string
 }
 
 export default ClipItem;
